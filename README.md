@@ -1,8 +1,14 @@
+LetsEncrypt for shared hosting installer
+========================================
+
+Mounts your remote FTP server and performs a SSL certificate generation that could be submitted manually or via cPANEL.
+
 ## Requirements
 
 - letsencrypt-cli
 - python2-selenium
 - chromium web browser
+- curlftpfs
 
 ### Generating a certificate
 
