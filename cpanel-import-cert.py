@@ -44,8 +44,8 @@ class CpanelImportCert:
         self.browser.find_element_by_id('sslkey').send_keys(open('./key.pem', 'r').read())
         
         time.sleep(5)
-        #self.browser.find_element_by_id('btnInstall').click()
-        #time.sleep(10)
+        self.browser.find_element_by_id('btnInstall').click()
+        time.sleep(10)
 
     
 CpanelImportCert().main()  
